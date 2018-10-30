@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HackerYou. Main page</title>
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" id="font-awesome-css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.8.6" type="text/css" media="all">
+</head>
+
+<body>
+
+  <div style="display:none">
+    <include src="images/sprite.svg"></include>
+  </div>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__wrapper">
+        <div class="page-header__title page-header__title--transparent page-header__title--nojs">
+          <a class="page-header__logo" href="index.html">
+            <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+              x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+          </a>
+
+        </div>
+        <nav class="page-header__main-nav">
+          <ul class="page-header__menu main-menu main-menu--closed main-menu--nojs">
+            <li class="main-menu__item">
+              <a class="main-menu__link main-menu__link--active" href="index.html">Main page</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="app.html">App</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="form.html">Contact</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="https://rmb-dev.github.io">rmb-dev</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main page-main--index">
+
+    <h1 class="visually-hidden">HackerYou</h1>
+
+    <section class="promo promo--extended promo--nojs">
+      <h2 class="visually-hidden">Our app in the web store</h2>
+      <div class="container">
+        <div class="promo__wrapper">
+          <div class="promo__poster">
+            <picture>
+              <source media="(min-width: 960px)" srcset="images/iphone_main.png 1x, images/iphone-hand-desktop@2x.png 2x">
+              <source media="(min-width: 660px)" srcset="images/iphone_main.png 1x, images/iphone_main.png 2x">
+              <img class="promo__image" src="images/iphone_main.png" srcset="images/iphone_main.png 2x" alt="Ad poster">
+            </picture>
+          </div>
+          <div class="promo__links">
+            <p class="promo__tagline">Lorem ipsum dolor sit amet!</p>
+            <a class="promo__main-link button" href="https://www.apple.com/itunes/">Download app</a>
+            <ul class="promo__list stores-list">
+              <li class="stores-list__item">
+                <a href="https://www.apple.com/itunes/">
+                  <svg width="46" height="57">
+                    <use xlink:href="#icon-apple"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="stores-list__item">
+                <a href="https://play.google.com/store/apps">
+                  <svg width="42" height="47">
+                    <use xlink:href="#icon-android"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="stores-list__item">
+                <a href="https://www.microsoft.com/en-ca/store/apps/windows-phone">
+                  <svg width="44" height="42">
+                    <use xlink:href="#icon-microsoft"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <p class="promo__text">Available for iPhone, iPad, Android, Windows Phone, OS X, Windows 10</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="description">
+
+        <h2 class="visually-hidden">Our advantages</h2>
+
+        <div class="description__wrapper">
+          <p class="description__title">Duis aute irure dolor!</p>
+          <p class="description__title">Excepteur sint occaecat cupidatat</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__wrapper">
+          <div class="advantages__list">
+            <div class="advantages__item">
+              <h3 class="advantages__title">Get the best knowledge</h3>
+              <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="advantages__item">
+              <h3 class="advantages__title">Create your portfolio</h3>
+              <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="advantages__item">
+              <h3 class="advantages__title">Make new friends</h3>
+              <p class="advantages__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="advantages__images-list">
+            <div class="advantages__illustration advantages__illustration--hide">
+              <picture>
+                <img class="advantages__image" src="images/iphone_img1.png" srcset="images/iphone_img1.png 2x" alt="Screen-good">
+              </picture>
+            </div>
+            <div class="advantages__illustration advantages__illustration--hide">
+              <picture>
+                <img class="advantages__image" src="images/iphone_img2.png" srcset="images/iphone_img2.png" alt="Screen-better">
+              </picture>
+            </div>
+            <div class="advantages__illustration">
+              <picture>
+                <img class="advantages__image" src="images/iphone_img3.png" srcset="images/iphone_img3.png 2x" alt="Screen-best">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="research">
+      <div class="container">
+        <div class="research__wrapper">
+          <div class="research__illustration">
+            <div class="research__timer">24</div>
+          </div>
+          <div class="research__effect">
+            <h3 class="research__title">Lorem <br> ipsum dolor sit amet</h3>
+            <p class="research__text">British scientists have conducted research and proved,<br> that the positive effect of using the application lasts a whole day!</p>
+            <a class="research__link" href="#">Learn more about the research</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedbacks-slider">
+      <div class="container">
+        <img class="feedbacks-slider__quotes-image" src="images/icon-quotes.svg" width="79" height="63" alt="quotes">
+        <div class="feedbacks-slider__wrapper">
+          <button class="feedbacks-slider__arrow feedbacks-slider__arrow--left" type="button">
+            <svg class="feedbacks-slider__arrow-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21.706px" height="41.719px" viewBox="0 0 21.706 41.719" enable-background="new 0 0 21.706 41.719" xml:space="preserve">
+              <path class="feedbacks-slider__arrow-icon-path" fill="#bec2c7" d="M2.045,20.859L21.458,1.446c0.331-0.331,0.331-0.867,0-1.198c-0.33-0.331-0.867-0.331-1.197,0L0.248,20.261 c-0.331,0.33-0.331,0.867,0,1.197l20.013,20.013c0.164,0.165,0.382,0.248,0.599,0.248s0.434-0.083,0.599-0.248 c0.331-0.331,0.331-0.867,0-1.198L2.045,20.859z"/>
+            </svg>
+          </button>
+          <div class="feedbacks-slider__item feedbacks-slider__item--left feedbacks-slider__item--show">
+            <h3 class="feedbacks-slider__title">Brian Woods</h3>
+            <p class="feedbacks-slider__caption">25 y/o, sales</p>
+            <p class="feedbacks-slider__text"><span class="feedbacks-slider__quote">«</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <span class="feedbacks-slider__quote">»</span>
+            </p>
+          </div>
+          <div class="feedbacks-slider__item feedbacks-slider__item--center feedbacks-slider__item--hide">
+            <h3 class="feedbacks-slider__title">Alex Morgan</h3>
+            <p class="feedbacks-slider__caption">37 y/o, designer</p>
+            <p class="feedbacks-slider__text"><span class="feedbacks-slider__quote">«</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <span class="feedbacks-slider__quote">»</span>
+            </p>
+          </div>
+          <div class="feedbacks-slider__item feedbacks-slider__item--right feedbacks-slider__item--hide">
+            <h3 class="feedbacks-slider__title">Steve Miller</h3>
+            <p class="feedbacks-slider__caption">32 y/o, marketing</p>
+            <p class="feedbacks-slider__text"><span class="feedbacks-slider__quote">«</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <span class="feedbacks-slider__quote">»</span>
+            </p>
+          </div>
+          <button class="feedbacks-slider__arrow feedbacks-slider__arrow--right" type="button">
+            <svg class="feedbacks-slider__arrow-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21.706px" height="41.719px" viewBox="0 0 21.706 41.719" enable-background="new 0 0 21.706 41.719" xml:space="preserve">
+              <path class="feedbacks-slider__arrow-icon-path" fill="#bec2c7" d="M19.661,20.859L0.248,1.446c-0.331-0.331-0.331-0.867,0-1.198c0.33-0.331,0.867-0.331,1.197,0l20.013,20.012 c0.33,0.33,0.33,0.867,0,1.197L1.445,41.471c-0.164,0.165-0.382,0.248-0.599,0.248s-0.434-0.083-0.599-0.248 c-0.331-0.331-0.331-0.867,0-1.198L19.661,20.859z"/>
+            </svg>
+          </button>
+        </div>
+        <ul class="feedbacks-slider__nav nav-list">
+          <li class="nav-list__item nav-list__item--left nav-list__item--active" tabindex="0"></li>
+          <li class="nav-list__item nav-list__item--center" tabindex="0"></li>
+          <li class="nav-list__item nav-list__item--right" tabindex="0"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="set-selector">
+      <div class="container">
+        <div class="set-selector__wrapper">
+          <div class="set-selector__set set-selector__set--options">
+            <div class="set-selector__body">
+              <span class="set-selector__option">Lorem</span>
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Ipsum</span>
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Epertize</span>
+            </div>
+          </div>
+          <div class="set-selector__set">
+            <div class="set-selector__head">
+              <h3 class="set-selector__title">Basic</h3>
+              <p class="set-selector__price">199 CAD</p>
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Lorem</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Ipsum</span>
+              <img class="set-selector__check-cross" src="images/icon-no.svg" width="26" height="26" alt="No">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Epertize</span>
+              <img class="set-selector__check-cross" src="images/icon-no.svg" width="26" height="26" alt="No">
+            </div>
+          </div>
+          <div class="set-selector__set set-selector__set--hit">
+            <div class="set-selector__head">
+              <picture>
+                <source media="(min-width: 960px)" srcset="images/bg-hit.svg">
+                <source media="(min-width: 660px)" srcset="images/bg-hit-tablet.svg">
+                <img class="set-selector__hit-bg" src="images/bg-hit.png" alt="Хит">
+              </picture>
+              <h3 class="set-selector__title">Standard</h3>
+              <p class="set-selector__price">499 CAD</p>
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Lorem</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Ipsum</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Epertize</span>
+              <img class="set-selector__check-cross" src="images/icon-no.svg" width="26" height="26" alt="No">
+            </div>
+          </div>
+          <div class="set-selector__set">
+            <div class="set-selector__head">
+              <h3 class="set-selector__title">Ulim</h3>
+              <p class="set-selector__price">999 CAD</p>
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Lorem</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Ipsum</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+            <div class="set-selector__body">
+              <span class="set-selector__option">Epertize</span>
+              <img class="set-selector__check-cross" src="images/icon-yes.svg" width="31" height="22" alt="Yes">
+            </div>
+          </div>
+        </div>
+        <ul class="set-selector__nav nav-list">
+          <li class="nav-list__item nav-list__item--left" tabindex="0"></li>
+          <li class="nav-list__item nav-list__item--center nav-list__item--active" tabindex="0"></li>
+          <li class="nav-list__item nav-list__item--right" tabindex="0"></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mainpage-footer">
+    <div class="container">
+      <div class="mainpage-footer__wrapper">
+        <h2 class="visually-hidden">Contacts</h2>
+        <div class="mainpage-footer__title-wrapper"></div>
+        <p class="mainpage-footer__title">Still have questions? Contact us!</p>
+      </div>
+      <div class="mainpage-footer__contacts contacts">
+        <div class="contacts__wrapper">
+          <div class="contacts__block contacts__block--phone">
+            <h3 class="contacts__title">Call:</h3>
+            <p class="contacts__text">+1 (647) 555-66-77</p>
+          </div>
+          <div class="contacts__block contacts__block--mail">
+            <h3 class="contacts__title">Message:</h3>
+            <p class="contacts__text"><a class="contacts__link" href="#">mail@hackeryou.com</a></p>
+          </div>
+          <div class="contacts__block contacts__block--adress">
+            <h3 class="contacts__title">Come for a visit:</h3>
+            <p class="contacts__text">483 & 485 Queen Street West, Toronto</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainpage-footer__map">
+      <img src="images/hy_map.jpg" alt="">
+    </div>
+  </footer>
+
+  <footer class="page-footer page-footer--index">
+      <div class="container">
+        <div class="page-footer__wrapper">
+          <div class="page-footer__block page-footer__logo" tabindex="0">
+            <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+              x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+          </div>
+          <div class="page-footer__block page-footer__social">
+            <ul class="page-footer__list social-list">
+              <li class="social-list__item">
+                <h3 class="visually-hidden">Twitter</h3>
+                <a class="social-list__link" href="#">
+                  <svg class="social-list__icon" width="18" height="15">
+                    <use xlink:href="#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <h3 class="visually-hidden">Facebook</h3>
+                <a class="social-list__link" href="#">
+                  <svg class="social-list__icon" width="9" height="19">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <h3 class="visually-hidden">YouTube</h3>
+                <a class="social-list__link" href="#">
+                  <svg class="social-list__icon" width="15" height="14">
+                    <use xlink:href="#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer__block page-footer__copyright">
+            <span class="page-footer__developed">Developed</span>
+            <h3 class="visually-hidden">rmb-dev</h3>
+            <a class="page-footer__rmb-link" href="https://rmb-dev.github.io" tabindex="0">
+              <svg class="page-footer__rmb-logo" width="27" height="34">
+                <use xlink:href="#icon-rmb"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <script>
+
+  </script>
+
+</body>
+
+</html>

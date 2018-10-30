@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HackerYou. Contact</title>
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" id="font-awesome-css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.8.6" type="text/css" media="all">
+</head>
+
+<body>
+
+  <div style="display:none">
+    <include src="images/sprite.svg"></include>
+  </div>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__wrapper">
+        <div class="page-header__title page-header__title--transparent page-header__title--nojs">
+          <a class="page-header__logo" href="index.html">
+            <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+              x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+          </a>
+        </div>
+        <nav class="page-header__main-nav">
+          <ul class="page-header__menu main-menu main-menu--closed main-menu--nojs">
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="index.html">Main page</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="app.html">App</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link main-menu__link--active" href="form.html">Contact</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="https://rmb-dev.github.io">rmb-dev</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main page-main--internal">
+
+    <section class="block-head">
+      <div class="block-head__wrapper block-head__wrapper--nojs block-head__wrapper--extended">
+        <div class="container">
+          <h1 class="block-head__title block-head__title--form">We are ready to welcome you in our community</h1>
+        </div>
+      </div>
+      <div class="container">
+        <p class="block-head__text block-head__text--form">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </section>
+
+    <section class="competition">
+      <div class="container">
+        <form class="competition__form fields" action="#" method="POST" enctype="multipart/form-data">
+          <div class="fields__set fields__set--personal">
+            <div class="fields__line">
+              <label class="fields__label" for="name">Name:</label>
+              <input class="fields__textfield" id="name" name="name" type="text" placeholder="Enter your name *">
+            </div>
+            <div class="fields__line">
+              <label class="fields__label" for="surname">Last name:</label>
+              <input class="fields__textfield" id="surname" name="surname" type="text" placeholder="Enter your last name *">
+            </div>
+          </div>
+          <div class="fields__set fields__set--checkboxes fields__set--grey">
+            <h2 class="fields__title">Program you are interested in</h2>
+            <ul class="fields__achievements achievements-list">
+              <li class="achievements-list__item">
+                <input class="achievements-list__input" id="selfie-shark" name="selfie-shark" type="checkbox" checked="">
+                <label class="achievements-list__label" for="selfie-shark" tabindex="0">Web Development Fundamentals</label>
+              </li>
+              <li class="achievements-list__item">
+                <input class="achievements-list__input" id="sunburn" name="sunburn" type="checkbox" checked="">
+                <label class="achievements-list__label" for="sunburn" tabindex="0">Advanced Web Development</label>
+              </li>
+              <li class="achievements-list__item">
+                <input class="achievements-list__input" id="rock" name="rock" type="checkbox">
+                <label class="achievements-list__label" for="rock" tabindex="0">JavaScript Fundamentals</label>
+              </li>
+              <li class="achievements-list__item">
+                <input class="achievements-list__input" id="souvenirs" name="souvenirs" type="checkbox">
+                <label class="achievements-list__label" for="souvenirs" tabindex="0">Advanced JavaScript</label>
+              </li>
+              <li class="achievements-list__item">
+                <input class="achievements-list__input" id="tower" name="tower" type="checkbox" checked="">
+                <label class="achievements-list__label" for="tower" tabindex="0">UX Design Fundamentals</label>
+              </li>
+              <li class="achievements-list__item achievements-list__item--last-child">
+                <input class="achievements-list__input" id="crazy-night" name="crazy-night" type="checkbox">
+                <label class="achievements-list__label" for="cazy-night" tabindex="0">Advanced UX Design</label>
+              </li>
+            </ul>
+          </div>
+          <div class="fields__set fields__set--contacts">
+            <h2 class="fields__title">Contact information</h2>
+            <div class="fields__contact-wrapper">
+              <div class="fields__contact-block">
+                <label class="fields__label" for="phone">Phone number</label>
+                <input class="fields__textfield" id="phone" name="phone" type="tel" placeholder="Your number">
+                <div class="fields__contact-image">
+                  <img class="fields__contact-icon fields__contact-icon--phone" src="images/icon-phone.svg" width="20" height="20" alt="phone">
+                </div>
+              </div>
+              <div class="fields__contact-block">
+                <label class="fields__label" for="email">Your e-mail</label>
+                <input class="fields__textfield" id="email" name="email" type="email" placeholder="Enter e-mail *">
+                <div class="fields__contact-image">
+                  <img class="fields__contact-icon fields__contact-icon--mail" src="images/icon-mail.svg" width="18" height="14" alt="mail">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fields__set fields__set--radio fields__set--grey">
+            <h2 class="fields__title">What app do you need?</h2>
+            <ul class="app-list">
+              <li class="app-list__item">
+                <input class="app-list__input" id="iOs" name="application" type="radio" value="iOs" checked="">
+                <label class="app-list__label" for="iOs" tabindex="0">HackerYou for iOS</label>
+              </li>
+              <li class="app-list__item">
+                <input class="app-list__input" id="android" name="application" type="radio" value="android">
+                <label class="app-list__label" for="android" tabindex="0">HackerYou for Android</label>
+              </li>
+              <li class="app-list__item">
+                <input class="app-list__input" id="win-phone" name="application" type="radio" value="windows-phone">
+                <label class="app-list__label" for="win-phone" tabindex="0">HackerYou for Windows</label>
+              </li>
+            </ul>
+          </div>
+          <div class="fields__set fields__set--description">
+            <h2 class="fields__title">You comments</h2>
+            <textarea class="fields__textarea" placeholder="Please  let us know about any special requests"></textarea>
+          </div>
+          <div class="fields__button-block">
+            <button class="fields__button square-button" id="button_submit" type="submit">Send form</button>
+            <p class="fields__note">
+              <span class="fields__note-star">*</span> — plase<span class="fields__note-plus"> fill this form </span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__block page-footer__logo" tabindex="0">
+          <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+            x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+        </div>
+        <div class="page-footer__block page-footer__social">
+          <ul class="page-footer__list social-list">
+            <li class="social-list__item">
+              <h3 class="visually-hidden">Twitter</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="18" height="15">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <h3 class="visually-hidden">Facebook</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="9" height="19">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <h3 class="visually-hidden">YouTube</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="15" height="14">
+                  <use xlink:href="#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__block page-footer__copyright">
+          <span class="page-footer__developed">Developed</span>
+          <h3 class="visually-hidden">rmb-dev</h3>
+          <a class="page-footer__rmb-link" href="https://rmb-dev.github.io" tabindex="0">
+            <svg class="page-footer__rmb-logo" width="27" height="34">
+              <use xlink:href="#icon-rmb"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal modal--send">
+    <div class="modal__wrapper">
+      <h2 class="modal__title">Your request received!</h2>
+      <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+    <div class="modal__button-block">
+      <button class="modal__button modal__button--close square-button">Close window</button>
+    </div>
+  </div>
+
+  <div class="modal modal--error">
+    <div class="modal__wrapper">
+      <h2 class="modal__title">Error!</h2>
+      <p class="modal__text">Please try again!</p>
+      <button class="modal__button modal__button--accept square-button">Accepted</button>
+    </div>
+  </div>
+
+  <div class="modal modal--invalid">
+    <div class="modal__wrapper">
+      <h2 class="modal__title">Something wrong</h2>
+      <p class="modal__text">Check all the fields</p>
+      <button class="modal__button modal__button--ok square-button">Ok</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

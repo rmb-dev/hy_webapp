@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HackerYou. App</title>
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+  <div style="display:none">
+    <include src="images/sprite.svg"></include>
+  </div>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__wrapper">
+        <div class="page-header__title page-header__title--transparent page-header__title--nojs">
+          <a class="page-header__logo" href="index.html">
+            <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+              x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+            </a>
+        </div>
+        <nav class="page-header__main-nav">
+          <ul class="page-header__menu main-menu main-menu--closed main-menu--nojs">
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="index.html">Main page</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link main-menu__link--active" href="app.html">App</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="form.html">Contact</a>
+            </li>
+            <li class="main-menu__item">
+              <a class="main-menu__link" href="https://rmb-dev.github.io">rmb-dev</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main page-main--internal">
+
+    <section class="block-head">
+      <div class="block-head__wrapper block-head__wrapper--extended block-head__wrapper--nojs">
+        <div class="container">
+          <h1 class="block-head__title">Honest reviews from our students</h1>
+        </div>
+      </div>
+      <div class="container">
+        <p class="block-head__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </section>
+
+    <section class="photo">
+      <h2 class="visually-hidden">Our reviews</h2>
+
+
+      <div class="container">
+        <div class="photo-wrapper">
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-car-mobile@1x.jpg" srcset="img/photo-car-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Lewis <span class="photo-block__post-time">(5 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 356</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-drumset-mobile@1x.jpg" srcset="img/photo-drumset-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Kyle <span class="photo-block__post-time">(12 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 666</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-window-mobile@1x.jpg" srcset="img/photo-window-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Alex <span class="photo-block__post-time">(20 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 215</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-fair-mobile@1x.jpg" srcset="img/photo-fair-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Steve <span class="photo-block__post-time">(25 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 4</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-pov-mobile@1x.jpg" srcset="img/photo-pov-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Lilian <span class="photo-block__post-time">(40 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 150</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="photo-block">
+            <h3 class="visually-hidden">Student review</h3>
+            <a href="full-img.jpg">
+              <picture>
+                <img class="photo-block__image" src="img/photo-wing-mobile@1x.jpg" srcset="img/photo-wing-mobile@2x.jpg 2x">
+              </picture>
+            </a>
+            <div class="photo-block__wrapper">
+              <div class="photo-block__username">Grace <span class="photo-block__post-time">(45 hours ago)</span></div>
+              <p class="photo-block__post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="photo-block__likes">
+                <button class="photo-block__like-button" type="button" aria-label="like">
+                  <svg class="photo-block__like-icon" width="13" height="12">
+                    <use xlink:href="#icon-heart"></use>
+                  </svg>
+                </button>
+                <span class="photo-block__like-text">Helpful: 2560</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="text-block">
+        <h3 class="visually-hidden">Use our app any time</h3>
+        <p class="text-block__content">School is always with you now!</p>
+
+      </section>
+    </div>
+
+
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__block page-footer__logo" tabindex="0">
+          <img class="page-header__logo-icon" src="images/logo-hackeryou.svg"
+            x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859">
+        </div>
+        <div class="page-footer__block page-footer__social">
+          <ul class="page-footer__list social-list">
+            <li class="social-list__item">
+              <h3 class="visually-hidden">Twitter</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="18" height="15">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <h3 class="visually-hidden">Facebook</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="9" height="19">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <h3 class="visually-hidden">YouTube</h3>
+              <a class="social-list__link" href="#">
+                <svg class="social-list__icon" width="15" height="14">
+                  <use xlink:href="#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__block page-footer__copyright">
+          <span class="page-footer__developed">Developed</span>
+          <h3 class="visually-hidden">rmb-dev</h3>
+          <a class="page-footer__rmb-link" href="https://rmb-dev.github.io" tabindex="0">
+            <svg class="page-footer__rmb-logo" width="27" height="34">
+              <use xlink:href="#icon-rmb"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
